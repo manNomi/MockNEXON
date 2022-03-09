@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1952</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : #ffffff;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="logo2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>136</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>MEMBERS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>162</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>NEXON </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="enterID">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>670</y>
+      <width>500</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo3">
+    <property name="geometry">
+     <rect>
+      <x>283</x>
+      <y>280</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>wellcome to NEXON</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>800</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #0F0E0E;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>338</y>
+      <width>441</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>460</y>
+      <width>791</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #0F0E0E;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>460</y>
+      <width>5</width>
+      <height>1400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #0F0E0E;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word1">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>470</y>
+      <width>501</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter basic information</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>550</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>Please enter the basic information correctly.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>630</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>NEXON ID (E-Mail)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>600</y>
+      <width>561</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="idCheck">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>740</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>It receives events and various game information and service guidance provided by Nexon.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>800</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>NICKNAME</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="nicknameCheck">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>910</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>If you use an inappropriate nickname, you may be subject to operational sanctions</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="enterNickname">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>840</y>
+      <width>500</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="enterPassword">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1000</y>
+      <width>500</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>960</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>PASSWORD</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="EnterPassword2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1100</y>
+      <width>500</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word6">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1060</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>PASSWORD CHECK</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word8">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1320</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>Date of birth</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calander">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1370</y>
+      <width>501</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #D8E3E7;
+color : black;</string>
+    </property>
+    <property name="selectedDate">
+     <date>
+      <year>2016</year>
+      <month>1</month>
+      <day>11</day>
+     </date>
+    </property>
+    <property name="gridVisible">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word9">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>1700</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>1320</y>
+      <width>126</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+     </font>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="genderCheckMen">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>1740</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MEN</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="genderCheckWoman">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>1780</y>
+      <width>116</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>WOMAN</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="buttonlAllcheck">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>1880</y>
+      <width>181</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #0F0E0E;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>CHECK</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="line5">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>1830</y>
+      <width>500</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="EnterPhone">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1210</y>
+      <width>500</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>1170</y>
+      <width>491</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : #D5D5D5;</string>
+    </property>
+    <property name="text">
+     <string>PHONE NUMBER</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picutre1">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>190</width>
+      <height>190</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picutre2">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>520</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picutre3">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>730</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picutre4">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>940</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picutre5">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>1160</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pictures/wellcom.qrc"/>
+ </resources>
+ <connections/>
+</ui>

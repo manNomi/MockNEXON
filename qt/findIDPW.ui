@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="chooseIDPW">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>661</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="findPW">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QLabel" name="logo1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>491</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Berlin Sans FB Demi</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : #D5D5D5;</string>
+      </property>
+      <property name="text">
+       <string>NEXON ID (E-Mail)</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="enterId">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>500</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Berlin Sans FB Demi</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="buttonCheck">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>170</y>
+        <width>181</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Berlin Sans FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #0F0E0E;
+color: #ffffff;</string>
+      </property>
+      <property name="text">
+       <string>CHECK</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="findID">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QLineEdit" name="enterNumber">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>500</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Berlin Sans FB Demi</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #D8E3E7;
+border:2px solid #F;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>491</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Berlin Sans FB Demi</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : #D5D5D5;</string>
+      </property>
+      <property name="text">
+       <string>PHONE NUMBER</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="buttonlcheck">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>180</y>
+        <width>181</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Berlin Sans FB</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #0F0E0E;
+color: #ffffff;</string>
+      </property>
+      <property name="text">
+       <string>CHECK</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

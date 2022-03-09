@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Berlin Sans FB Demi</family>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : #ffffff;</string>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="logo1">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>79</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>NEXON </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>140</y>
+      <width>136</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nexon ID Login</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="buttonlLogin">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>480</y>
+      <width>600</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #0F0E0E;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>LOGIN</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="buttonJoin">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>570</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;
+border:0px solid #EEEEEE;</string>
+    </property>
+    <property name="text">
+     <string>JOIN</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="buttonFindId">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>570</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;
+border:0px solid #EEEEEE;</string>
+    </property>
+    <property name="text">
+     <string>FIND ID</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="buttonFindPw">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>570</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;
+border:0px solid #EEEEEE;</string>
+    </property>
+    <property name="text">
+     <string>FIND PASSWORD</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="enterId">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>270</y>
+      <width>600</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;
+border:2px solid #EEEEEE;</string>
+    </property>
+    <property name="text">
+     <string>                                                                                                ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="enterID">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>370</y>
+      <width>600</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB Demi</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffffff;
+border:2px solid #EEEEEE;</string>
+    </property>
+    <property name="text">
+     <string>                                                                                               PW</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

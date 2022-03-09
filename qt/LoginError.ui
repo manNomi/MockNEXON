@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>548</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : #ffffff;</string>
+  </property>
+  <widget class="QLabel" name="errorLogin">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>0</y>
+     <width>280</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Berlin Sans FB Demi</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color : #FF6363;
+color : white;</string>
+   </property>
+   <property name="text">
+    <string>Nexon ID or password is not registered</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
